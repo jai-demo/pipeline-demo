@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('check-out'){
 			steps{
-				git 'https://github.com/jai-demo/pipeline-demo.git'  /* repository is  public */ 
+				git  'https://github.com/jai-demo/pipeline-demo' 
 			}
 		}
 		
